@@ -1,0 +1,32 @@
+.Login{
+    align-content: center;
+    margin-top: 50px;
+}
+
+.login_title{
+    text-align: center;
+}
+
+.login__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.field{
+    width: 30%;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.login_button{
+    width: 30%;
+    height: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}

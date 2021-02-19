@@ -1,0 +1,39 @@
+.header{
+    display: flex;
+    height:60px;
+    align-items: center;
+    background-color:#000080;
+    top: 0;
+    z-index: 100;
+    position: sticky;
+}
+
+.header__brand{
+    display: flex;
+    width: 100px;
+    object-fit: contain;
+    margin-left:20;
+    color: white;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.header__login{
+font-weight: 800px;
+color: white;
+margin-right: 20px;
+padding: 0 5px;
+}
+
+.header__register{
+font-weight: 800px;
+color: white;
+margin-right: 20px;
+padding: 0 5px;
+}
+
